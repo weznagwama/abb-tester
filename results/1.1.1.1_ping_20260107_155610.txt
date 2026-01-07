@@ -1,0 +1,8 @@
+=== PING TEST TO 1.1.1.1 ===
+Timestamp: 2026-01-07 15:56:10
+Test duration: 50 packets
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=10.2 ms
+64 bytes from 1.1.1.1: icmp_seq=5 ttl=59 time=11.1 ms
+64 bytes from 1.1.1.1: icmp_seq=6 ttl=59 time=86.8 ms

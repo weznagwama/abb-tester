@@ -1,0 +1,11 @@
+=== TRACEPATH TO 1.1.1.1 ===
+Timestamp: 2026-01-07 15:57:48
+Max hops: 30
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  cloudmesh                                             0.498ms 
+ 1:  cloudmesh                                             0.310ms 
+ 2:  no reply
+ 3:  10.241.5.60                                          36.774ms asymm  5 
+ 4:  10.241.6.56                                          25.583ms 
+ 5:  

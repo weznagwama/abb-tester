@@ -1,0 +1,30 @@
+=== TRACEPATH TO 208.67.222.222 ===
+Timestamp: 2026-01-07 15:29:43
+Max hops: 30
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  cloudmesh                                             0.486ms 
+ 1:  cloudmesh                                             0.265ms 
+ 2:  loop14461840.bng.vic.aussiebb.net                    15.442ms 
+ 3:  10.241.5.62                                          14.912ms asymm  6 
+ 4:  no reply
+ 5:  be2.lsr2.ia-dce.mel.aussiebb.net                     64.419ms asymm  4 
+ 6:  10.241.4.161                                          9.679ms asymm  3 
+ 7:  no reply
+ 8:  no reply
+ 9:  no reply
+10:  no reply
+11:  no reply
+12:  no reply
+13:  no reply
+14:  no reply
+15:  no reply
+16:  no reply
+17:  no reply
+18:  no reply
+19:  no reply
+20:  as36692.melbourne.megaport.com                       10.185ms !H
+     Resume: pmtu 1500 
+
+=== END TRACEPATH ===
+

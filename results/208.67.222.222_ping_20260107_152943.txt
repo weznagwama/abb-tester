@@ -1,0 +1,61 @@
+=== PING TEST TO 208.67.222.222 ===
+Timestamp: 2026-01-07 15:29:43
+Test duration: 50 packets
+
+PING 208.67.222.222 (208.67.222.222) 56(84) bytes of data.
+64 bytes from 208.67.222.222: icmp_seq=1 ttl=60 time=16.9 ms
+64 bytes from 208.67.222.222: icmp_seq=2 ttl=60 time=7.67 ms
+64 bytes from 208.67.222.222: icmp_seq=3 ttl=60 time=8.51 ms
+64 bytes from 208.67.222.222: icmp_seq=4 ttl=60 time=36.6 ms
+64 bytes from 208.67.222.222: icmp_seq=6 ttl=60 time=9.94 ms
+64 bytes from 208.67.222.222: icmp_seq=7 ttl=60 time=9.39 ms
+64 bytes from 208.67.222.222: icmp_seq=8 ttl=60 time=8.72 ms
+64 bytes from 208.67.222.222: icmp_seq=9 ttl=60 time=9.40 ms
+64 bytes from 208.67.222.222: icmp_seq=10 ttl=60 time=8.06 ms
+64 bytes from 208.67.222.222: icmp_seq=11 ttl=60 time=9.24 ms
+64 bytes from 208.67.222.222: icmp_seq=12 ttl=60 time=8.50 ms
+64 bytes from 208.67.222.222: icmp_seq=13 ttl=60 time=8.30 ms
+64 bytes from 208.67.222.222: icmp_seq=14 ttl=60 time=11.7 ms
+64 bytes from 208.67.222.222: icmp_seq=15 ttl=60 time=9.69 ms
+64 bytes from 208.67.222.222: icmp_seq=16 ttl=60 time=8.96 ms
+64 bytes from 208.67.222.222: icmp_seq=17 ttl=60 time=9.40 ms
+64 bytes from 208.67.222.222: icmp_seq=18 ttl=60 time=9.27 ms
+64 bytes from 208.67.222.222: icmp_seq=19 ttl=60 time=9.08 ms
+64 bytes from 208.67.222.222: icmp_seq=20 ttl=60 time=8.32 ms
+64 bytes from 208.67.222.222: icmp_seq=21 ttl=60 time=8.43 ms
+64 bytes from 208.67.222.222: icmp_seq=22 ttl=60 time=11.9 ms
+64 bytes from 208.67.222.222: icmp_seq=23 ttl=60 time=8.98 ms
+64 bytes from 208.67.222.222: icmp_seq=24 ttl=60 time=11.0 ms
+64 bytes from 208.67.222.222: icmp_seq=25 ttl=60 time=8.23 ms
+64 bytes from 208.67.222.222: icmp_seq=26 ttl=60 time=9.31 ms
+64 bytes from 208.67.222.222: icmp_seq=27 ttl=60 time=13.6 ms
+64 bytes from 208.67.222.222: icmp_seq=28 ttl=60 time=10.2 ms
+64 bytes from 208.67.222.222: icmp_seq=29 ttl=60 time=8.46 ms
+64 bytes from 208.67.222.222: icmp_seq=30 ttl=60 time=8.13 ms
+64 bytes from 208.67.222.222: icmp_seq=31 ttl=60 time=8.77 ms
+64 bytes from 208.67.222.222: icmp_seq=32 ttl=60 time=8.04 ms
+64 bytes from 208.67.222.222: icmp_seq=33 ttl=60 time=7.80 ms
+64 bytes from 208.67.222.222: icmp_seq=34 ttl=60 time=8.52 ms
+64 bytes from 208.67.222.222: icmp_seq=35 ttl=60 time=8.45 ms
+64 bytes from 208.67.222.222: icmp_seq=36 ttl=60 time=9.33 ms
+64 bytes from 208.67.222.222: icmp_seq=37 ttl=60 time=7.99 ms
+64 bytes from 208.67.222.222: icmp_seq=38 ttl=60 time=9.59 ms
+64 bytes from 208.67.222.222: icmp_seq=39 ttl=60 time=5.42 ms
+64 bytes from 208.67.222.222: icmp_seq=40 ttl=60 time=9.58 ms
+64 bytes from 208.67.222.222: icmp_seq=41 ttl=60 time=9.45 ms
+64 bytes from 208.67.222.222: icmp_seq=42 ttl=60 time=10.2 ms
+64 bytes from 208.67.222.222: icmp_seq=43 ttl=60 time=7.84 ms
+64 bytes from 208.67.222.222: icmp_seq=44 ttl=60 time=7.63 ms
+64 bytes from 208.67.222.222: icmp_seq=45 ttl=60 time=8.54 ms
+64 bytes from 208.67.222.222: icmp_seq=46 ttl=60 time=15.2 ms
+64 bytes from 208.67.222.222: icmp_seq=47 ttl=60 time=15.4 ms
+64 bytes from 208.67.222.222: icmp_seq=48 ttl=60 time=7.85 ms
+64 bytes from 208.67.222.222: icmp_seq=49 ttl=60 time=9.44 ms
+64 bytes from 208.67.222.222: icmp_seq=50 ttl=60 time=9.55 ms
+
+--- 208.67.222.222 ping statistics ---
+50 packets transmitted, 49 received, 2% packet loss, time 49054ms
+rtt min/avg/max/mdev = 5.422/10.011/36.585/4.353 ms
+
+=== END PING TEST ===
+

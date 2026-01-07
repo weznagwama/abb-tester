@@ -1,0 +1,44 @@
+=== PING TEST TO 1.1.1.1 ===
+Timestamp: 2026-01-07 15:13:14
+Test duration: 50 packets
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=14.2 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=41.8 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=59 time=20.7 ms
+64 bytes from 1.1.1.1: icmp_seq=5 ttl=59 time=20.5 ms
+64 bytes from 1.1.1.1: icmp_seq=6 ttl=59 time=25.1 ms
+64 bytes from 1.1.1.1: icmp_seq=7 ttl=59 time=21.4 ms
+64 bytes from 1.1.1.1: icmp_seq=11 ttl=59 time=20.8 ms
+64 bytes from 1.1.1.1: icmp_seq=12 ttl=59 time=25.8 ms
+64 bytes from 1.1.1.1: icmp_seq=13 ttl=59 time=24.5 ms
+64 bytes from 1.1.1.1: icmp_seq=14 ttl=59 time=13.7 ms
+64 bytes from 1.1.1.1: icmp_seq=15 ttl=59 time=16.7 ms
+64 bytes from 1.1.1.1: icmp_seq=16 ttl=59 time=10.3 ms
+64 bytes from 1.1.1.1: icmp_seq=17 ttl=59 time=32.4 ms
+64 bytes from 1.1.1.1: icmp_seq=18 ttl=59 time=4.03 ms
+64 bytes from 1.1.1.1: icmp_seq=19 ttl=59 time=18.1 ms
+64 bytes from 1.1.1.1: icmp_seq=20 ttl=59 time=11.2 ms
+64 bytes from 1.1.1.1: icmp_seq=21 ttl=59 time=9.93 ms
+64 bytes from 1.1.1.1: icmp_seq=24 ttl=59 time=36.1 ms
+64 bytes from 1.1.1.1: icmp_seq=26 ttl=59 time=33.2 ms
+64 bytes from 1.1.1.1: icmp_seq=27 ttl=59 time=12.7 ms
+64 bytes from 1.1.1.1: icmp_seq=30 ttl=59 time=33.6 ms
+64 bytes from 1.1.1.1: icmp_seq=31 ttl=59 time=27.2 ms
+64 bytes from 1.1.1.1: icmp_seq=32 ttl=59 time=20.9 ms
+64 bytes from 1.1.1.1: icmp_seq=35 ttl=59 time=7.68 ms
+64 bytes from 1.1.1.1: icmp_seq=36 ttl=59 time=10.2 ms
+64 bytes from 1.1.1.1: icmp_seq=40 ttl=59 time=18.4 ms
+64 bytes from 1.1.1.1: icmp_seq=41 ttl=59 time=21.6 ms
+64 bytes from 1.1.1.1: icmp_seq=42 ttl=59 time=59.0 ms
+64 bytes from 1.1.1.1: icmp_seq=43 ttl=59 time=12.2 ms
+64 bytes from 1.1.1.1: icmp_seq=45 ttl=59 time=22.3 ms
+64 bytes from 1.1.1.1: icmp_seq=47 ttl=59 time=16.8 ms
+64 bytes from 1.1.1.1: icmp_seq=49 ttl=59 time=35.9 ms
+
+--- 1.1.1.1 ping statistics ---
+50 packets transmitted, 32 received, 36% packet loss, time 49512ms
+rtt min/avg/max/mdev = 4.030/21.832/59.014/11.250 ms
+
+=== END PING TEST ===
+

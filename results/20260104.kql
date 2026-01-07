@@ -1,0 +1,15 @@
+// Example daily KQL file that would be generated automatically
+// File: 20260104.kql - Generated on 4th January 2026
+
+datatable(timestamp: datetime, type: string, dstIp: string, observableType: string, observableValue: string) [
+    datetime(2026-01-04T08:15:30.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '45',
+    datetime(2026-01-04T08:15:30.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-04T08:15:30.000Z), 'ping', '202.142.142.142', 'Packet Loss (percent)', '38',
+    datetime(2026-01-04T08:15:30.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '12.456',
+    datetime(2026-01-04T08:15:30.000Z), 'tracepath', '202.142.142.142', 'Latency to ABB internal network', '9.823',
+    datetime(2026-01-04T14:22:45.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '52',
+    datetime(2026-01-04T14:22:45.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-04T14:22:45.000Z), 'ping', '202.142.142.142', 'Packet Loss (percent)', '46',
+    datetime(2026-01-04T14:22:45.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '15.789',
+    datetime(2026-01-04T14:22:45.000Z), 'tracepath', '202.142.142.142', 'Latency to ABB internal network', '11.234'
+]

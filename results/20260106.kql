@@ -1,0 +1,16 @@
+datatable(timestamp: datetime, type: string, dstIp: string, observableType: string, observableValue: string) [
+    datetime(2026-01-06T01:43:06.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '6'
+    datetime(2026-01-06T01:43:06.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '6',
+    datetime(2026-01-06T01:43:06.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-06T15:42:42.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '12'
+    datetime(2026-01-06T15:42:42.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '12',
+    datetime(2026-01-06T15:42:42.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '8.128',,
+    datetime(2026-01-06T16:01:26.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '40'
+    datetime(2026-01-06T16:01:26.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '36',
+    datetime(2026-01-06T16:01:26.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '9.822',
+    datetime(2026-01-06T16:22:06.000Z), 'tracepath', '208.67.222.222', 'Latency to ABB internal network', '61.699',
+    datetime(2026-01-06T16:22:06.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '52'
+    datetime(2026-01-06T16:22:06.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '52',
+    datetime(2026-01-06T16:31:01.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '60',
+    datetime(2026-01-06T16:31:01.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '68'
+]

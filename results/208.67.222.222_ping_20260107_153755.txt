@@ -1,0 +1,38 @@
+=== PING TEST TO 208.67.222.222 ===
+Timestamp: 2026-01-07 15:37:55
+Test duration: 50 packets
+
+PING 208.67.222.222 (208.67.222.222) 56(84) bytes of data.
+64 bytes from 208.67.222.222: icmp_seq=1 ttl=60 time=11.3 ms
+64 bytes from 208.67.222.222: icmp_seq=2 ttl=60 time=12.8 ms
+64 bytes from 208.67.222.222: icmp_seq=6 ttl=60 time=21.2 ms
+From 144.6.186.68 icmp_seq=7 Destination Host Unreachable
+From 144.6.186.68 icmp_seq=10 Destination Host Unreachable
+From 144.6.186.68 icmp_seq=11 Destination Host Unreachable
+From 144.6.186.68 icmp_seq=12 Destination Host Unreachable
+64 bytes from 208.67.222.222: icmp_seq=16 ttl=60 time=18.2 ms
+64 bytes from 208.67.222.222: icmp_seq=22 ttl=60 time=15.4 ms
+64 bytes from 208.67.222.222: icmp_seq=24 ttl=60 time=13.2 ms
+64 bytes from 208.67.222.222: icmp_seq=25 ttl=60 time=11.8 ms
+64 bytes from 208.67.222.222: icmp_seq=27 ttl=60 time=12.5 ms
+64 bytes from 208.67.222.222: icmp_seq=31 ttl=60 time=14.0 ms
+64 bytes from 208.67.222.222: icmp_seq=32 ttl=60 time=21.8 ms
+64 bytes from 208.67.222.222: icmp_seq=36 ttl=60 time=12.1 ms
+64 bytes from 208.67.222.222: icmp_seq=37 ttl=60 time=7.70 ms
+64 bytes from 208.67.222.222: icmp_seq=40 ttl=60 time=14.6 ms
+64 bytes from 208.67.222.222: icmp_seq=41 ttl=60 time=47.2 ms
+64 bytes from 208.67.222.222: icmp_seq=42 ttl=60 time=12.2 ms
+64 bytes from 208.67.222.222: icmp_seq=43 ttl=60 time=22.8 ms
+64 bytes from 208.67.222.222: icmp_seq=44 ttl=60 time=8.62 ms
+64 bytes from 208.67.222.222: icmp_seq=45 ttl=60 time=24.7 ms
+64 bytes from 208.67.222.222: icmp_seq=46 ttl=60 time=25.9 ms
+64 bytes from 208.67.222.222: icmp_seq=48 ttl=60 time=13.5 ms
+64 bytes from 208.67.222.222: icmp_seq=49 ttl=60 time=13.3 ms
+64 bytes from 208.67.222.222: icmp_seq=50 ttl=60 time=11.4 ms
+
+--- 208.67.222.222 ping statistics ---
+50 packets transmitted, 22 received, +4 errors, 56% packet loss, time 49779ms
+rtt min/avg/max/mdev = 7.699/16.643/47.214/8.295 ms, pipe 3
+
+=== END PING TEST ===
+

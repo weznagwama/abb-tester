@@ -1,0 +1,16 @@
+=== TRACEPATH TO 208.67.222.222 ===
+Timestamp: 2026-01-07 15:37:55
+Max hops: 30
+
+ 1?: [LOCALHOST]                      pmtu 1500
+ 1:  cloudmesh                                             0.480ms 
+ 1:  cloudmesh                                             0.329ms 
+ 2:  loop14461840.bng.vic.aussiebb.net                    10.458ms 
+ 3:  10.241.5.62                                          31.572ms asymm  6 
+ 4:  no reply
+ 5:  no reply
+ 5:  144.6.186.68                                        2557.917ms !H
+     Resume: pmtu 1500 
+
+=== END TRACEPATH ===
+

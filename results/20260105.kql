@@ -1,0 +1,38 @@
+datatable(timestamp: datetime, type: string, dstIp: string, observableType: string, observableValue: string) [
+    datetime(2026-01-05T13:32:35.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '2',
+    datetime(2026-01-05T13:32:35.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '2',
+    datetime(2026-01-05T13:32:35.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T13:45:14.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T13:45:14.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '42',
+    datetime(2026-01-05T13:45:14.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '48',
+    datetime(2026-01-05T13:50:32.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '2'
+    datetime(2026-01-05T13:50:32.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '2',
+    datetime(2026-01-05T13:50:32.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T13:50:32.000Z), 'tracepath', '208.67.222.222', 'Latency to ABB internal network', '9.880',
+    datetime(2026-01-05T13:50:32.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '9.794',
+    datetime(2026-01-05T14:10:40.000Z), 'tracepath', '208.67.222.222', 'Latency to ABB internal network', '12.882',
+    datetime(2026-01-05T14:10:40.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T14:10:40.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '36',
+    datetime(2026-01-05T14:10:40.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '50',
+    datetime(2026-01-05T14:10:40.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '9.542',
+    datetime(2026-01-05T15:04:36.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '0'
+    datetime(2026-01-05T15:04:36.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T15:04:36.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T15:04:36.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '20.578',
+    datetime(2026-01-05T15:18:38.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T15:18:38.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '26',
+    datetime(2026-01-05T15:18:38.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '26',
+    datetime(2026-01-05T15:18:38.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '10.766',
+    datetime(2026-01-05T15:25:44.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T15:25:44.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '56',
+    datetime(2026-01-05T15:25:44.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '58',
+    datetime(2026-01-05T15:25:44.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '19.012',
+    datetime(2026-01-05T15:32:41.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T15:32:41.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '38',
+    datetime(2026-01-05T15:32:41.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '38',
+    datetime(2026-01-05T15:32:41.000Z), 'tracepath', '1.1.1.1', 'Latency to ABB internal network', '18.484',
+    datetime(2026-01-05T16:24:39.000Z), 'tracepath', '208.67.222.222', 'Latency to ABB internal network', '9.493',
+    datetime(2026-01-05T16:24:39.000Z), 'ping', '192.168.20.1', 'Packet Loss (percent)', '0',
+    datetime(2026-01-05T16:24:39.000Z), 'ping', '208.67.222.222', 'Packet Loss (percent)', '38'
+    datetime(2026-01-05T16:24:39.000Z), 'ping', '1.1.1.1', 'Packet Loss (percent)', '40'
+]

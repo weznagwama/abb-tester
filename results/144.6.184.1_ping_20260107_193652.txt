@@ -1,0 +1,40 @@
+=== PING TEST TO 144.6.184.1 ===
+Timestamp: 2026-01-07 19:36:52
+Test duration: 50 packets
+
+PING 144.6.184.1 (144.6.184.1) 56(84) bytes of data.
+64 bytes from 144.6.184.1: icmp_seq=1 ttl=254 time=13.4 ms
+64 bytes from 144.6.184.1: icmp_seq=2 ttl=254 time=11.1 ms
+64 bytes from 144.6.184.1: icmp_seq=5 ttl=254 time=46.6 ms
+64 bytes from 144.6.184.1: icmp_seq=6 ttl=254 time=12.2 ms
+64 bytes from 144.6.184.1: icmp_seq=8 ttl=254 time=13.9 ms
+64 bytes from 144.6.184.1: icmp_seq=9 ttl=254 time=20.3 ms
+64 bytes from 144.6.184.1: icmp_seq=13 ttl=254 time=10.1 ms
+64 bytes from 144.6.184.1: icmp_seq=18 ttl=254 time=15.0 ms
+64 bytes from 144.6.184.1: icmp_seq=20 ttl=254 time=10.7 ms
+64 bytes from 144.6.184.1: icmp_seq=21 ttl=254 time=12.1 ms
+64 bytes from 144.6.184.1: icmp_seq=22 ttl=254 time=14.6 ms
+64 bytes from 144.6.184.1: icmp_seq=23 ttl=254 time=11.8 ms
+64 bytes from 144.6.184.1: icmp_seq=24 ttl=254 time=9.95 ms
+64 bytes from 144.6.184.1: icmp_seq=25 ttl=254 time=14.8 ms
+64 bytes from 144.6.184.1: icmp_seq=26 ttl=254 time=9.27 ms
+64 bytes from 144.6.184.1: icmp_seq=27 ttl=254 time=18.6 ms
+64 bytes from 144.6.184.1: icmp_seq=31 ttl=254 time=23.6 ms
+64 bytes from 144.6.184.1: icmp_seq=32 ttl=254 time=12.8 ms
+64 bytes from 144.6.184.1: icmp_seq=33 ttl=254 time=10.2 ms
+64 bytes from 144.6.184.1: icmp_seq=35 ttl=254 time=9.57 ms
+64 bytes from 144.6.184.1: icmp_seq=38 ttl=254 time=18.3 ms
+64 bytes from 144.6.184.1: icmp_seq=39 ttl=254 time=20.8 ms
+64 bytes from 144.6.184.1: icmp_seq=42 ttl=254 time=8.96 ms
+64 bytes from 144.6.184.1: icmp_seq=44 ttl=254 time=12.8 ms
+64 bytes from 144.6.184.1: icmp_seq=46 ttl=254 time=12.6 ms
+64 bytes from 144.6.184.1: icmp_seq=48 ttl=254 time=9.52 ms
+64 bytes from 144.6.184.1: icmp_seq=49 ttl=254 time=25.7 ms
+64 bytes from 144.6.184.1: icmp_seq=50 ttl=254 time=12.9 ms
+
+--- 144.6.184.1 ping statistics ---
+50 packets transmitted, 28 received, 44% packet loss, time 49632ms
+rtt min/avg/max/mdev = 8.964/15.071/46.615/7.462 ms
+
+=== END PING TEST ===
+

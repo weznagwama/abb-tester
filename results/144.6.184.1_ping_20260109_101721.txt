@@ -1,0 +1,62 @@
+=== PING TEST TO 144.6.184.1 ===
+Timestamp: 2026-01-09 10:17:21
+Test duration: 50 packets
+
+PING 144.6.184.1 (144.6.184.1) 56(84) bytes of data.
+64 bytes from 144.6.184.1: icmp_seq=1 ttl=254 time=7.71 ms
+64 bytes from 144.6.184.1: icmp_seq=2 ttl=254 time=6.25 ms
+64 bytes from 144.6.184.1: icmp_seq=3 ttl=254 time=10.0 ms
+64 bytes from 144.6.184.1: icmp_seq=4 ttl=254 time=4.76 ms
+64 bytes from 144.6.184.1: icmp_seq=5 ttl=254 time=5.01 ms
+64 bytes from 144.6.184.1: icmp_seq=6 ttl=254 time=5.25 ms
+64 bytes from 144.6.184.1: icmp_seq=7 ttl=254 time=6.00 ms
+64 bytes from 144.6.184.1: icmp_seq=8 ttl=254 time=7.55 ms
+64 bytes from 144.6.184.1: icmp_seq=9 ttl=254 time=10.1 ms
+64 bytes from 144.6.184.1: icmp_seq=10 ttl=254 time=5.56 ms
+64 bytes from 144.6.184.1: icmp_seq=11 ttl=254 time=6.22 ms
+64 bytes from 144.6.184.1: icmp_seq=12 ttl=254 time=7.58 ms
+64 bytes from 144.6.184.1: icmp_seq=13 ttl=254 time=5.81 ms
+64 bytes from 144.6.184.1: icmp_seq=14 ttl=254 time=11.8 ms
+64 bytes from 144.6.184.1: icmp_seq=15 ttl=254 time=5.02 ms
+64 bytes from 144.6.184.1: icmp_seq=16 ttl=254 time=13.9 ms
+64 bytes from 144.6.184.1: icmp_seq=17 ttl=254 time=7.14 ms
+64 bytes from 144.6.184.1: icmp_seq=18 ttl=254 time=5.76 ms
+64 bytes from 144.6.184.1: icmp_seq=19 ttl=254 time=14.2 ms
+64 bytes from 144.6.184.1: icmp_seq=20 ttl=254 time=9.70 ms
+64 bytes from 144.6.184.1: icmp_seq=21 ttl=254 time=14.4 ms
+64 bytes from 144.6.184.1: icmp_seq=22 ttl=254 time=11.1 ms
+64 bytes from 144.6.184.1: icmp_seq=23 ttl=254 time=4.79 ms
+64 bytes from 144.6.184.1: icmp_seq=24 ttl=254 time=8.26 ms
+64 bytes from 144.6.184.1: icmp_seq=25 ttl=254 time=9.24 ms
+64 bytes from 144.6.184.1: icmp_seq=26 ttl=254 time=6.37 ms
+64 bytes from 144.6.184.1: icmp_seq=27 ttl=254 time=9.25 ms
+64 bytes from 144.6.184.1: icmp_seq=28 ttl=254 time=6.42 ms
+64 bytes from 144.6.184.1: icmp_seq=29 ttl=254 time=13.9 ms
+64 bytes from 144.6.184.1: icmp_seq=30 ttl=254 time=5.30 ms
+64 bytes from 144.6.184.1: icmp_seq=31 ttl=254 time=13.3 ms
+64 bytes from 144.6.184.1: icmp_seq=32 ttl=254 time=5.60 ms
+64 bytes from 144.6.184.1: icmp_seq=33 ttl=254 time=8.46 ms
+64 bytes from 144.6.184.1: icmp_seq=34 ttl=254 time=4.03 ms
+64 bytes from 144.6.184.1: icmp_seq=35 ttl=254 time=13.0 ms
+64 bytes from 144.6.184.1: icmp_seq=36 ttl=254 time=9.91 ms
+64 bytes from 144.6.184.1: icmp_seq=37 ttl=254 time=7.72 ms
+64 bytes from 144.6.184.1: icmp_seq=38 ttl=254 time=6.44 ms
+64 bytes from 144.6.184.1: icmp_seq=39 ttl=254 time=4.34 ms
+64 bytes from 144.6.184.1: icmp_seq=40 ttl=254 time=5.96 ms
+64 bytes from 144.6.184.1: icmp_seq=41 ttl=254 time=9.59 ms
+64 bytes from 144.6.184.1: icmp_seq=42 ttl=254 time=8.39 ms
+64 bytes from 144.6.184.1: icmp_seq=43 ttl=254 time=9.00 ms
+64 bytes from 144.6.184.1: icmp_seq=44 ttl=254 time=7.43 ms
+64 bytes from 144.6.184.1: icmp_seq=45 ttl=254 time=7.76 ms
+64 bytes from 144.6.184.1: icmp_seq=46 ttl=254 time=6.28 ms
+64 bytes from 144.6.184.1: icmp_seq=47 ttl=254 time=7.92 ms
+64 bytes from 144.6.184.1: icmp_seq=48 ttl=254 time=6.22 ms
+64 bytes from 144.6.184.1: icmp_seq=49 ttl=254 time=17.5 ms
+64 bytes from 144.6.184.1: icmp_seq=50 ttl=254 time=6.36 ms
+
+--- 144.6.184.1 ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 49053ms
+rtt min/avg/max/mdev = 4.033/8.192/17.470/3.076 ms
+
+=== END PING TEST ===
+

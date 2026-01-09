@@ -1,0 +1,27 @@
+=== PING TEST TO 144.6.184.1 ===
+Timestamp: 2026-01-09 13:43:46
+Test duration: 50 packets
+
+PING 144.6.184.1 (144.6.184.1) 56(84) bytes of data.
+64 bytes from 144.6.184.1: icmp_seq=6 ttl=254 time=11.6 ms
+64 bytes from 144.6.184.1: icmp_seq=11 ttl=254 time=11.1 ms
+64 bytes from 144.6.184.1: icmp_seq=17 ttl=254 time=10.7 ms
+64 bytes from 144.6.184.1: icmp_seq=23 ttl=254 time=23.8 ms
+64 bytes from 144.6.184.1: icmp_seq=25 ttl=254 time=11.2 ms
+64 bytes from 144.6.184.1: icmp_seq=26 ttl=254 time=23.1 ms
+64 bytes from 144.6.184.1: icmp_seq=28 ttl=254 time=7.69 ms
+64 bytes from 144.6.184.1: icmp_seq=35 ttl=254 time=16.2 ms
+64 bytes from 144.6.184.1: icmp_seq=36 ttl=254 time=9.43 ms
+64 bytes from 144.6.184.1: icmp_seq=38 ttl=254 time=11.7 ms
+64 bytes from 144.6.184.1: icmp_seq=40 ttl=254 time=11.6 ms
+64 bytes from 144.6.184.1: icmp_seq=41 ttl=254 time=17.9 ms
+64 bytes from 144.6.184.1: icmp_seq=46 ttl=254 time=11.9 ms
+64 bytes from 144.6.184.1: icmp_seq=47 ttl=254 time=12.8 ms
+64 bytes from 144.6.184.1: icmp_seq=49 ttl=254 time=18.4 ms
+
+--- 144.6.184.1 ping statistics ---
+50 packets transmitted, 15 received, 70% packet loss, time 49845ms
+rtt min/avg/max/mdev = 7.692/13.946/23.841/4.686 ms
+
+=== END PING TEST ===
+

@@ -1,0 +1,41 @@
+=== PING TEST TO 144.6.184.1 ===
+Timestamp: 2026-01-09 00:39:52
+Test duration: 50 packets
+
+PING 144.6.184.1 (144.6.184.1) 56(84) bytes of data.
+64 bytes from 144.6.184.1: icmp_seq=1 ttl=254 time=10.9 ms
+64 bytes from 144.6.184.1: icmp_seq=2 ttl=254 time=13.8 ms
+64 bytes from 144.6.184.1: icmp_seq=3 ttl=254 time=9.52 ms
+64 bytes from 144.6.184.1: icmp_seq=4 ttl=254 time=17.7 ms
+64 bytes from 144.6.184.1: icmp_seq=5 ttl=254 time=11.4 ms
+64 bytes from 144.6.184.1: icmp_seq=9 ttl=254 time=10.5 ms
+64 bytes from 144.6.184.1: icmp_seq=12 ttl=254 time=17.2 ms
+64 bytes from 144.6.184.1: icmp_seq=13 ttl=254 time=15.5 ms
+64 bytes from 144.6.184.1: icmp_seq=15 ttl=254 time=8.24 ms
+64 bytes from 144.6.184.1: icmp_seq=16 ttl=254 time=16.0 ms
+64 bytes from 144.6.184.1: icmp_seq=18 ttl=254 time=8.98 ms
+64 bytes from 144.6.184.1: icmp_seq=19 ttl=254 time=16.5 ms
+64 bytes from 144.6.184.1: icmp_seq=23 ttl=254 time=19.5 ms
+64 bytes from 144.6.184.1: icmp_seq=24 ttl=254 time=7.54 ms
+64 bytes from 144.6.184.1: icmp_seq=26 ttl=254 time=14.5 ms
+64 bytes from 144.6.184.1: icmp_seq=28 ttl=254 time=12.2 ms
+64 bytes from 144.6.184.1: icmp_seq=29 ttl=254 time=14.2 ms
+64 bytes from 144.6.184.1: icmp_seq=32 ttl=254 time=15.5 ms
+64 bytes from 144.6.184.1: icmp_seq=34 ttl=254 time=21.2 ms
+64 bytes from 144.6.184.1: icmp_seq=36 ttl=254 time=12.5 ms
+64 bytes from 144.6.184.1: icmp_seq=38 ttl=254 time=12.5 ms
+64 bytes from 144.6.184.1: icmp_seq=39 ttl=254 time=8.53 ms
+64 bytes from 144.6.184.1: icmp_seq=40 ttl=254 time=11.8 ms
+64 bytes from 144.6.184.1: icmp_seq=41 ttl=254 time=9.66 ms
+64 bytes from 144.6.184.1: icmp_seq=43 ttl=254 time=8.91 ms
+64 bytes from 144.6.184.1: icmp_seq=46 ttl=254 time=17.3 ms
+64 bytes from 144.6.184.1: icmp_seq=47 ttl=254 time=22.6 ms
+64 bytes from 144.6.184.1: icmp_seq=48 ttl=254 time=11.2 ms
+64 bytes from 144.6.184.1: icmp_seq=50 ttl=254 time=8.81 ms
+
+--- 144.6.184.1 ping statistics ---
+50 packets transmitted, 29 received, 42% packet loss, time 49558ms
+rtt min/avg/max/mdev = 7.540/13.265/22.586/3.990 ms
+
+=== END PING TEST ===
+

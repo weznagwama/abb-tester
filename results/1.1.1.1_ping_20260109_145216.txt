@@ -1,0 +1,46 @@
+=== PING TEST TO 1.1.1.1 ===
+Timestamp: 2026-01-09 14:52:16
+Test duration: 50 packets
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=59 time=31.9 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=59 time=13.0 ms
+64 bytes from 1.1.1.1: icmp_seq=8 ttl=59 time=30.8 ms
+64 bytes from 1.1.1.1: icmp_seq=9 ttl=59 time=13.0 ms
+64 bytes from 1.1.1.1: icmp_seq=10 ttl=59 time=12.0 ms
+64 bytes from 1.1.1.1: icmp_seq=11 ttl=59 time=11.6 ms
+64 bytes from 1.1.1.1: icmp_seq=15 ttl=59 time=11.7 ms
+64 bytes from 1.1.1.1: icmp_seq=18 ttl=59 time=20.4 ms
+64 bytes from 1.1.1.1: icmp_seq=20 ttl=59 time=11.3 ms
+64 bytes from 1.1.1.1: icmp_seq=21 ttl=59 time=13.0 ms
+64 bytes from 1.1.1.1: icmp_seq=22 ttl=59 time=12.0 ms
+64 bytes from 1.1.1.1: icmp_seq=25 ttl=59 time=14.8 ms
+64 bytes from 1.1.1.1: icmp_seq=27 ttl=59 time=9.32 ms
+64 bytes from 1.1.1.1: icmp_seq=28 ttl=59 time=8.30 ms
+64 bytes from 1.1.1.1: icmp_seq=29 ttl=59 time=9.61 ms
+64 bytes from 1.1.1.1: icmp_seq=32 ttl=59 time=7.81 ms
+64 bytes from 1.1.1.1: icmp_seq=33 ttl=59 time=30.7 ms
+64 bytes from 1.1.1.1: icmp_seq=34 ttl=59 time=8.76 ms
+64 bytes from 1.1.1.1: icmp_seq=35 ttl=59 time=13.4 ms
+64 bytes from 1.1.1.1: icmp_seq=36 ttl=59 time=7.70 ms
+64 bytes from 1.1.1.1: icmp_seq=37 ttl=59 time=9.05 ms
+64 bytes from 1.1.1.1: icmp_seq=38 ttl=59 time=8.39 ms
+64 bytes from 1.1.1.1: icmp_seq=39 ttl=59 time=9.54 ms
+64 bytes from 1.1.1.1: icmp_seq=40 ttl=59 time=9.36 ms
+64 bytes from 1.1.1.1: icmp_seq=41 ttl=59 time=8.52 ms
+64 bytes from 1.1.1.1: icmp_seq=42 ttl=59 time=8.71 ms
+64 bytes from 1.1.1.1: icmp_seq=43 ttl=59 time=9.69 ms
+64 bytes from 1.1.1.1: icmp_seq=44 ttl=59 time=8.22 ms
+64 bytes from 1.1.1.1: icmp_seq=45 ttl=59 time=8.83 ms
+64 bytes from 1.1.1.1: icmp_seq=46 ttl=59 time=10.5 ms
+64 bytes from 1.1.1.1: icmp_seq=47 ttl=59 time=8.71 ms
+64 bytes from 1.1.1.1: icmp_seq=48 ttl=59 time=9.72 ms
+64 bytes from 1.1.1.1: icmp_seq=49 ttl=59 time=10.2 ms
+64 bytes from 1.1.1.1: icmp_seq=50 ttl=59 time=7.96 ms
+
+--- 1.1.1.1 ping statistics ---
+50 packets transmitted, 34 received, 32% packet loss, time 49494ms
+rtt min/avg/max/mdev = 7.700/12.309/31.856/6.367 ms
+
+=== END PING TEST ===
+

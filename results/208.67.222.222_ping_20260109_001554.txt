@@ -1,0 +1,39 @@
+=== PING TEST TO 208.67.222.222 ===
+Timestamp: 2026-01-09 00:15:54
+Test duration: 50 packets
+
+PING 208.67.222.222 (208.67.222.222) 56(84) bytes of data.
+64 bytes from 208.67.222.222: icmp_seq=1 ttl=60 time=11.2 ms
+64 bytes from 208.67.222.222: icmp_seq=2 ttl=60 time=25.5 ms
+64 bytes from 208.67.222.222: icmp_seq=3 ttl=60 time=8.49 ms
+64 bytes from 208.67.222.222: icmp_seq=4 ttl=60 time=14.5 ms
+64 bytes from 208.67.222.222: icmp_seq=5 ttl=60 time=11.6 ms
+64 bytes from 208.67.222.222: icmp_seq=6 ttl=60 time=7.97 ms
+64 bytes from 208.67.222.222: icmp_seq=8 ttl=60 time=11.0 ms
+64 bytes from 208.67.222.222: icmp_seq=9 ttl=60 time=10.6 ms
+64 bytes from 208.67.222.222: icmp_seq=13 ttl=60 time=7.94 ms
+64 bytes from 208.67.222.222: icmp_seq=21 ttl=60 time=12.8 ms
+64 bytes from 208.67.222.222: icmp_seq=22 ttl=60 time=10.8 ms
+64 bytes from 208.67.222.222: icmp_seq=24 ttl=60 time=13.8 ms
+64 bytes from 208.67.222.222: icmp_seq=25 ttl=60 time=11.0 ms
+64 bytes from 208.67.222.222: icmp_seq=30 ttl=60 time=7.72 ms
+64 bytes from 208.67.222.222: icmp_seq=31 ttl=60 time=21.3 ms
+64 bytes from 208.67.222.222: icmp_seq=32 ttl=60 time=15.8 ms
+64 bytes from 208.67.222.222: icmp_seq=33 ttl=60 time=10.5 ms
+64 bytes from 208.67.222.222: icmp_seq=35 ttl=60 time=11.5 ms
+64 bytes from 208.67.222.222: icmp_seq=37 ttl=60 time=11.2 ms
+64 bytes from 208.67.222.222: icmp_seq=38 ttl=60 time=15.6 ms
+64 bytes from 208.67.222.222: icmp_seq=39 ttl=60 time=8.51 ms
+64 bytes from 208.67.222.222: icmp_seq=40 ttl=60 time=10.6 ms
+64 bytes from 208.67.222.222: icmp_seq=42 ttl=60 time=17.8 ms
+64 bytes from 208.67.222.222: icmp_seq=44 ttl=60 time=10.3 ms
+64 bytes from 208.67.222.222: icmp_seq=45 ttl=60 time=8.37 ms
+64 bytes from 208.67.222.222: icmp_seq=47 ttl=60 time=15.9 ms
+64 bytes from 208.67.222.222: icmp_seq=49 ttl=60 time=10.9 ms
+
+--- 208.67.222.222 ping statistics ---
+50 packets transmitted, 27 received, 46% packet loss, time 49634ms
+rtt min/avg/max/mdev = 7.718/12.345/25.531/4.112 ms
+
+=== END PING TEST ===
+

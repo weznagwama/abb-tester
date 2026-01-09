@@ -1,0 +1,25 @@
+# Azure Data Explorer (Kusto) Configuration
+# Copy this file to kusto-config.conf and update with your actual values
+#
+# This configuration file stores Azure Data Explorer connection details
+# for the network monitoring scripts.
+
+# Kusto cluster URL - Your Azure Data Explorer cluster endpoint
+KUSTO_CLUSTER_URL=https://your-cluster.region.kusto.windows.net
+
+# Database and table names
+KUSTO_DATABASE=NetworkMonitoring
+KUSTO_TABLE=NetworkTests
+
+# Azure AD Application Credentials
+# Create these using: ./kusto-setup.sh create-app --app-name "NetworkMonitor"
+KUSTO_CLIENT_ID=your-client-id-here
+KUSTO_CLIENT_SECRET=your-client-secret-here
+KUSTO_TENANT_ID=your-tenant-id-here
+
+# Source identifier - customize for each deployment location
+# This helps distinguish data from different monitoring locations
+SOURCE=your-location-name
+
+# Optional: Enable debug logging (true/false)
+KUSTO_DEBUG=false

@@ -1,0 +1,54 @@
+=== PING TEST TO 1.1.1.1 ===
+Timestamp: 2026-01-10 07:51:47
+Test duration: 50 packets
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=19.9 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=59 time=10.7 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=9.70 ms
+64 bytes from 1.1.1.1: icmp_seq=7 ttl=59 time=13.4 ms
+64 bytes from 1.1.1.1: icmp_seq=13 ttl=59 time=13.1 ms
+64 bytes from 1.1.1.1: icmp_seq=14 ttl=59 time=7.91 ms
+64 bytes from 1.1.1.1: icmp_seq=15 ttl=59 time=9.12 ms
+64 bytes from 1.1.1.1: icmp_seq=16 ttl=59 time=8.78 ms
+64 bytes from 1.1.1.1: icmp_seq=17 ttl=59 time=8.75 ms
+64 bytes from 1.1.1.1: icmp_seq=18 ttl=59 time=12.2 ms
+64 bytes from 1.1.1.1: icmp_seq=19 ttl=59 time=14.2 ms
+64 bytes from 1.1.1.1: icmp_seq=20 ttl=59 time=7.89 ms
+64 bytes from 1.1.1.1: icmp_seq=21 ttl=59 time=9.45 ms
+64 bytes from 1.1.1.1: icmp_seq=22 ttl=59 time=8.89 ms
+64 bytes from 1.1.1.1: icmp_seq=23 ttl=59 time=9.39 ms
+64 bytes from 1.1.1.1: icmp_seq=24 ttl=59 time=8.19 ms
+64 bytes from 1.1.1.1: icmp_seq=25 ttl=59 time=8.34 ms
+64 bytes from 1.1.1.1: icmp_seq=26 ttl=59 time=13.5 ms
+64 bytes from 1.1.1.1: icmp_seq=27 ttl=59 time=9.71 ms
+64 bytes from 1.1.1.1: icmp_seq=28 ttl=59 time=12.4 ms
+64 bytes from 1.1.1.1: icmp_seq=29 ttl=59 time=11.1 ms
+64 bytes from 1.1.1.1: icmp_seq=30 ttl=59 time=12.7 ms
+64 bytes from 1.1.1.1: icmp_seq=31 ttl=59 time=11.3 ms
+64 bytes from 1.1.1.1: icmp_seq=32 ttl=59 time=11.8 ms
+64 bytes from 1.1.1.1: icmp_seq=33 ttl=59 time=12.4 ms
+64 bytes from 1.1.1.1: icmp_seq=34 ttl=59 time=13.1 ms
+64 bytes from 1.1.1.1: icmp_seq=35 ttl=59 time=12.4 ms
+64 bytes from 1.1.1.1: icmp_seq=36 ttl=59 time=11.8 ms
+64 bytes from 1.1.1.1: icmp_seq=37 ttl=59 time=11.3 ms
+64 bytes from 1.1.1.1: icmp_seq=38 ttl=59 time=12.3 ms
+64 bytes from 1.1.1.1: icmp_seq=39 ttl=59 time=11.4 ms
+64 bytes from 1.1.1.1: icmp_seq=40 ttl=59 time=10.8 ms
+64 bytes from 1.1.1.1: icmp_seq=41 ttl=59 time=11.9 ms
+64 bytes from 1.1.1.1: icmp_seq=42 ttl=59 time=13.1 ms
+64 bytes from 1.1.1.1: icmp_seq=43 ttl=59 time=9.57 ms
+64 bytes from 1.1.1.1: icmp_seq=44 ttl=59 time=8.34 ms
+64 bytes from 1.1.1.1: icmp_seq=45 ttl=59 time=10.7 ms
+64 bytes from 1.1.1.1: icmp_seq=46 ttl=59 time=12.9 ms
+64 bytes from 1.1.1.1: icmp_seq=47 ttl=59 time=12.4 ms
+64 bytes from 1.1.1.1: icmp_seq=48 ttl=59 time=13.8 ms
+64 bytes from 1.1.1.1: icmp_seq=49 ttl=59 time=12.8 ms
+64 bytes from 1.1.1.1: icmp_seq=50 ttl=59 time=12.9 ms
+
+--- 1.1.1.1 ping statistics ---
+50 packets transmitted, 42 received, 16% packet loss, time 49289ms
+rtt min/avg/max/mdev = 7.888/11.341/19.899/2.259 ms
+
+=== END PING TEST ===
+

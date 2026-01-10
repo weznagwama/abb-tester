@@ -387,7 +387,7 @@ parse_ping_result() {
         fi
     else
         # Handle timeout/failure
-        upload_ping_to_kusto "$target_ip" "0" "timeout" "timeout" "false"
+        upload_ping_to_kusto "$target_ip" "1" "timeout" "timeout" "false"
         
         if [[ $? -eq 0 ]]; then
             echo -ne "\r${RED}[$(date '+%H:%M:%S')] $target_ip: TIMEOUT${NC}    "

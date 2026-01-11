@@ -18,6 +18,9 @@ MAX_BUFFER_SIZE=1000  # maximum number of records to buffer locally
 CONFIG_FILE="$(dirname "$0")/kusto-config.conf"
 BUFFER_FILE="$(dirname "$0")/kusto-buffer.jsonl"
 
+# Global variables for failure tracking
+CURRENT_FAILURE_ID=""
+
 # Function to load configuration from file
 load_config() {
     if [[ ! -f "$CONFIG_FILE" ]]; then
@@ -213,9 +216,34 @@ get_azure_token() {
     echo "$access_token"
 }
 
+# Function to generate a unique failure ID (UUID-like)
+generate_failure_id() {
+    # Generate a UUID-like identifier using available tools
+    if command -v uuidgen >/dev/null 2>&1; then
+        uuidgen
+    else
+        # Fallback: create UUID-like string using date, random, and process ID
+        printf "%08x-%04x-%04x-%04x-%012x" \
+            $(($(date +%s))) \
+            $((RANDOM)) \
+            $((RANDOM)) \
+            $((RANDOM)) \
+            $$$(date +%N | cut -c1-8)
+    fi
+}
+
 # Function to add failed upload to local buffer
 add_to_buffer() {
     local record="$1"
+    
+    # Generate new failure ID if this is the start of a new failure session
+    if [[ -z "$CURRENT_FAILURE_ID" ]]; then
+        CURRENT_FAILURE_ID=$(generate_failure_id)
+        log "INFO" "New failure session started: $CURRENT_FAILURE_ID"
+    fi
+    
+    # Add failureId to the record
+    local record_with_failure_id=$(echo "$record" | sed 's/}$/, "failureId": "'$CURRENT_FAILURE_ID'"}&/')
     
     # Check buffer size and rotate if needed
     if [[ -f "$BUFFER_FILE" ]]; then
@@ -228,8 +256,8 @@ add_to_buffer() {
         fi
     fi
     
-    # Add record to buffer
-    echo "$record" >> "$BUFFER_FILE"
+    # Add record with failure ID to buffer
+    echo "$record_with_failure_id" >> "$BUFFER_FILE"
     
     if [[ "${KUSTO_DEBUG:-false}" == "true" ]]; then
         log "DEBUG" "Added record to local buffer"
@@ -270,6 +298,10 @@ process_buffer() {
     
     if [[ $processed -gt 0 ]]; then
         log "SUCCESS" "Uploaded $processed buffered records to Kusto"
+        # Clear the current failure ID since we successfully processed records
+        if [[ $failed -eq 0 ]]; then
+            CURRENT_FAILURE_ID=""
+        fi
     fi
     
     if [[ $failed -gt 0 ]] && [[ "${KUSTO_DEBUG:-false}" == "true" ]]; then
@@ -336,7 +368,7 @@ upload_ping_to_kusto() {
     fi
     
     local record=$(cat <<EOF
-{"timestamp": "$timestamp", "type": "ping", "dstIp": "$dst_ip", "observableType": "$observable_type", "observableValue": $observable_value, "source": "$SOURCE"}
+{"timestamp": "$timestamp", "type": "ping", "dstIp": "$dst_ip", "observableType": "$observable_type", "observableValue": $observable_value, "source": "$SOURCE", "failureId": null}
 EOF
 )
     

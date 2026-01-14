@@ -243,7 +243,7 @@ add_to_buffer() {
     fi
     
     # Add failureId to the record
-    local record_with_failure_id=$(echo "$record" | sed 's/}$/, "failureId": "'$CURRENT_FAILURE_ID'"}&/')
+    local record_with_failure_id=$(echo "$record" | sed 's/}$/, "failureId": "'$CURRENT_FAILURE_ID'"}/')
     
     # Check buffer size and rotate if needed
     if [[ -f "$BUFFER_FILE" ]]; then
